@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <script src="script/main.js"></script>
+  </head>
+  <body>
+    <h1>Courses Client 2 - SPA (Single Page Application)</h1>
+    <div id="edit-item">
+        <details>
+            <summary>Edit Item</summary>
+            <fieldset>
+                <legend>Enter Item Data</legend>
+                    <input id="id" type="hidden" value="">
+                    <label><input onchange="onDraft()" value="" id="dept" placeholder="dept"></label>
+                    <label><input onchange="onDraft()" value="" id="courseNum" placeholder="courseNum"></label>
+                    <label><input onchange="onDraft()" value="" id="courseName" placeholder="courseName"></label>
+                    <label><input onchange="onDraft()" value="" id="instructor" placeholder="instructor"></label>
+                    <label><input onchange="onDraft()" value="" id="numDays" placeholder="numDays"> Days</label>
+                    <button id="save" onclick="onSave(this)">Save</button>
+                </table>
+            </fieldset>
+        </details>
+    </div>
+    <button onclick="onNew()">New Item</button>
+    <br>
+    <hr>
+    <br>
+    <div id="item-list"></div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+  background: darkslategray;
+  color: silver;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 3vw;
+}
+button {
+  font-size: 2vw;
+}
+button#save {
+  font-size: 3vw;
+  width: 100%;
+  margin-top: 1vh;
+}
+th {
+  text-align: left;
+}
+table button,
+table table {
+  margin-left: 10vw;
+}
+table table th {
+  padding-right: 5vw;
+}
